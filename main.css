@@ -218,9 +218,6 @@ h3 {
   font-size: 2.5em;
   padding-left: 80%;
   padding-bottom: 16px;
-  transition-duration: 0.4s;
-  transition-property: transform;
-  transition-timing-function: ease-out;
 }
 .material-icons.forward.inactive.black {
   color: rgba(0, 0, 0, 0.26);
@@ -230,11 +227,9 @@ h3 {
 }
 .material-icons.forward.active.black:hover {
   color: rgba(0, 0, 0, 0.87);
-  transform: translateX(10px);
 }
 .material-icons.back.active.black:hover {
   color: rgba(0, 0, 0, 0.87);
-  transform: translateX(-10px);
 }
 img {
   max-width: 100%;
